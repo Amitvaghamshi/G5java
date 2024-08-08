@@ -8,7 +8,13 @@ public class B extends A{
 		super(a);
 		this.b=b;
 		this.c=c;
-		System.out.println("INSIDE CLASS B");
+		System.out.println("INSIDE CLASS B");      
+		
+		
+		
+		
+		
+		
 	}
 	
 	void setBC(int b,int c) {
