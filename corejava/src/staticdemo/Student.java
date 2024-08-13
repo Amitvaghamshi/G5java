@@ -1,5 +1,4 @@
 package staticdemo;
-
 import java.util.Arrays;
 
 public class Student {
@@ -8,6 +7,11 @@ public class Student {
 	int roll;
 	int marks;
 	static String uniName;
+	
+	
+	public static void  run(Student s) {
+		System.out.println(s.name+" is running");
+	}
 	
 	public Student(String name, int roll, int marks) {
 		super();
@@ -20,9 +24,7 @@ public class Student {
 		 System.out.println("Student is studying");
 	}
 	
-	public  void  run() {
-		System.out.println("student is running");
-	}
+	
 	
 	public static void main(String[] args) {
 //		Student s1=new Student("Albert",12,235);
