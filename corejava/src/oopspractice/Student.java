@@ -1,5 +1,7 @@
 package oopspractice;
 
+import java.util.ArrayList;
+
 public class Student extends Person {
 
 	int roll;
@@ -34,9 +36,18 @@ public class Student extends Person {
 	}
 	
 	public static void main(String[] args) {
-		Student s=new Student("Venu",34,23,78);
-		s.displayDetails();
-		s.findGrade();
+//		Student s=new Student("Venu",34,23,78);
+//		s.displayDetails();
+//		s.findGrade();
+		
+		ArrayList<Integer> list=new ArrayList<>();
+		list.add(1442);
+		list.add(34);
+		list.add(76);
+		list.add(6);
+		
+		list.remove(2);
+		System.out.println(list);
 	}
 	
 }
