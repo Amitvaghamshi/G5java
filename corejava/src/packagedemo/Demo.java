@@ -14,4 +14,3 @@ public class Demo {
 		out.println(sqrt(245));
 	}
 }
-
